@@ -39,6 +39,27 @@ do {
     print(key)
 }
 
+//Defer Statement
+
+//func processFile(filename: String, someOtherFile: String) throws {
+//    if exists(filename) {
+//        let file = open(filename)
+//        defer {
+//            close(filename)
+//        }
+//        
+//        let file2 = open(someOtherFile)
+//        while let line = try file.readLine() {
+//            //work with the file
+//        }
+//        
+//        defer {
+//            close(someOtherFile)
+//        }
+//        
+//    }
+//}
+
 //CHALLENGE
 
 //Challenge No.1
